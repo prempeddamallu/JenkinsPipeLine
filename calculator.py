@@ -1,10 +1,12 @@
 class Calculator:
     print("checking the file")
+    print("Started")
     
     def add(self, a: int, b: int) -> int:
         """Return the sum of two positive integers."""
         self._validate_positive_integer(a)
         self._validate_positive_integer(b)
+
         return a + b
 
     def subtract(self, a: int, b: int) -> int:
