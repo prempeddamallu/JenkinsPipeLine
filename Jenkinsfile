@@ -15,7 +15,7 @@ pipeline{
         }
         stage("Test"){
             steps{
-                bat 'C:\Users\PremKumarReddyPeddam\AppData\Local\Programs\Python\Python312\python.exe -m unittest discover'
+                bat 'C:\\Users\\PremKumarReddyPeddam\\AppData\\Local\\Programs\\Python\\Python312\\python.exe -m unittest discover'
             }
         }
         stage("Build"){
